@@ -67,7 +67,7 @@
     "lint-staged": "^9.5.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "semver": "^6.2.0",
+    "semver": "^7.5.2",
     "shelljs": "^0.8.5",
     "validate-npm-package-name": "^3.0.0",
     "yaml-front-matter": "^4.0.0"
