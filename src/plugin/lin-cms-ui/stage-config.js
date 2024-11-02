@@ -19,26 +19,6 @@ const linCmsUiRouter = {
       permission: null,
       children: [
         {
-          title: 'Button 按钮',
-          type: 'view',
-          name: 'LinCmsUiButton',
-          route: '/lin-cms-ui/basic/button',
-          filePath: 'plugin/lin-cms-ui/view/basic/button/button.vue',
-          inNav: true,
-          icon: 'iconfont icon-jiemiansheji',
-          permission: null,
-        },
-        {
-          title: 'Link 文字链接',
-          type: 'view',
-          name: 'LinCmsUiButton',
-          route: '/lin-cms-ui/basic/link',
-          filePath: 'plugin/lin-cms-ui/view/basic/link/link.vue',
-          inNav: true,
-          icon: 'iconfont icon-jiemiansheji',
-          permission: null,
-        },
-        {
           title: 'Icon 图标',
           type: 'view',
           name: null,
