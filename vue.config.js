@@ -5,6 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
+  publicPath: '/cms/',
   lintOnSave: false,
   productionSourceMap: false,
   // assetsDir: 'static',
