@@ -26,30 +26,6 @@ const baseRouter = {
       route: "/base/type",
       filePath: "plugin/base/view/type/type-list.vue",
       inNav: true
-    },
-    {
-      name: null,
-      title: "本地化语言",
-      type: 'tab',
-      inNav: true,
-      icon: 'iconfont icon-kecheng',
-      children: [{
-        title: '本地化语言',
-        type: 'view',
-        name: 'culture-list',
-        route: '/base/culture/list',
-        filePath: 'plugin/base/view/culture/culture-list.vue',
-        inNav: false,
-      },
-      {
-        title: "新增本地化",
-        type: "view",
-        name: "culture-form",
-        route: "/base/culture/form/:id?",
-        filePath: "plugin/base/view/culture/culture-form.vue",
-        inNav: false,
-        props: true
-      }]
     }
   ]
 };
